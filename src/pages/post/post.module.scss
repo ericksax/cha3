@@ -1,1 +1,34 @@
-// TODO
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1120px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+
+  strong {
+    font-size: 3rem;
+    font-weight: 900;
+    display: block;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  aside {
+    display: flex;
+    margin-bottom: 4rem;
+    width: 100%;
+
+    & p {
+      margin-left: 2rem;
+    }
+  }
+}
+
+.imagem {
+  width: 100%;
+  height: 500px;
+}
